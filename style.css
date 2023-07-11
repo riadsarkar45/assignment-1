@@ -3,13 +3,12 @@
     padding: 0px;
 }
 .header-container {
-    background-color: #FCEEF1;
+    background-color: rgb(252, 238, 241);
     height: 100vh;
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     padding-left: 14%;
-    gap: 100px;
+    gap: 60px;
 }
 p.desc {
     width: 361px;
@@ -18,19 +17,20 @@ p.desc {
     margin-top: 28px;
 }
 img.image {
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 86vh;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     width: 100%;
-    display: flex; /* Add this */
-    justify-content: center; /* Add this */
-    align-items: center; /* Add this */
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 86px;
+}
   
 h2.heading {
     font-size: 45px;
@@ -38,10 +38,10 @@ h2.heading {
 }
 button.btn {
     margin-top: 27px;
-    border-radius: 3px;
+    border-radius: 2px;
     background: #E55473;
     border: none;
-    padding: 20px 29px 16px 24px;
+    padding: 18px 25px 17px 27px;
     color: white;
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
@@ -87,7 +87,7 @@ p.text {
     display: flex;
     width: 85%;
     justify-content: center;
-    margin: auto;
+    margin: 26px auto;
     gap: 25px;
 }
 
@@ -140,4 +140,136 @@ h5.service {
     font-weight: 600;
     line-height: 35px;
     font-family: 'Open Sans', sans-serif;
+}
+.hot-deal-section {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    /* display: flex; */
+    /* align-items: center; */
+    /* padding: 60px; */
+    /* margin-top: 7%; */
+    height: 60vh;
+}
+.deal-texts {
+    text-align: center;
+    /* margin: auto; */
+}
+p.deal-para {
+    width: 69%;
+    text-align: center;
+    margin: auto;
+}
+h2.deal-title {
+    font-size: 29px;
+    text-align: center;
+}
+img.deal-image {
+    width: 55%;
+}
+p.deal-para {
+    width: 62%;
+    text-align: center;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+}
+.flex {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: 81px auto;
+    padding: 75px;
+}
+.social-section {
+    width: 80%;
+}
+.social-image-card {
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    margin: 64px auto;
+    gap: 25px;
+}
+img.card {
+    width: 100%;
+}
+.back-image-section {
+    background-image: url("Flower Asset/Rectangle 9.png");
+    /* display: flex; */
+    /* justify-content: space-around; */
+    height: 281px;
+    align-items: center;
+    /* border: 2px solid gray; */
+    color: white;
+    /* background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53)); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.latest-deals-section {
+    width: 85%;
+    margin: auto;
+}
+.section {
+    /* margin: 75px; */
+    padding: 74px;
+}
+input[type="text"] {
+    width: 72%;
+    padding: 20px;
+    border: navajowhite;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+.latest {
+    color: black;
+}
+input[type="text"] {
+    width: 72%;
+    padding: 20px;
+    border: navajowhite;
+    border-radius: 3px;
+    margin-top: 25px;
+    border: none;
+}
+.latest-section-btn {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+p.color {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-section {
+    background: #111010;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 25px; */
+    padding: 35px;
+}
+.footer-text {
+    color: white;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+p.footer-desc {
+    width: 45%;
+    margin: auto;
+    line-height: 22px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.90);
+    display: flex;
+    justify-content: center;
+}
+p.last-text {
+    padding: 30px;
+    color: rgba(255, 255, 255, 0.40);
 }
