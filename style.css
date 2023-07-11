@@ -60,6 +60,8 @@ p.text {
 .main-header {
     text-align: center;
     margin: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
 }
 .images1 {
     background-color: #F1DDE7;
